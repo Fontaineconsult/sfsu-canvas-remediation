@@ -1,0 +1,8 @@
+# OS / Box sync artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Microsoft Office temp & lock files (appear while a doc is open)
+~$*
+*.tmp
