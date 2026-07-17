@@ -48,7 +48,7 @@ A short alt can't carry a data table or a process diagram. Use a **two-part** ap
 
 **This is frequently Tier C.** If conveying the image requires interpreting data relationships, escalate rather than guess — a wrong description of a chart is worse than a flagged one.
 
-For per-image-type description templates and a free guided authoring tool, use the **DIAGRAM Center** guidance and **POET** tool (diagramcenter.org) — the authoritative reference for describing charts, diagrams, and infographics.
+For per-image-type description templates and a free guided authoring tool, use the **DIAGRAM Center** guidance and **POET** tool (diagramcenter.org) — the authoritative reference for describing charts, diagrams, and infographics. For **scientific/STEM figures** specifically (complex diagrams, lab illustrations, quantitative charts), add: **NCAM/GBH — Effective Practices for Description of Science Content** and the **U. of South Carolina charts-and-diagrams alt-text guide** (links in `../../../research/accessible-math-reading.md` §7).
 
 ---
 

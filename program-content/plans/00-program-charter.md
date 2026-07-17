@@ -13,6 +13,7 @@ Build a comprehensive, lifecycle-driven Canvas LMS digital accessibility remedia
 - New content is expected to be **born-accessible now** (Cal State LA reads the new-content obligation as effective April 24, 2026 — confirm with CO ATI).
 - CSU CO ATI directive: the extension changes nothing strategically — use the time for **quality, sustainable practices, consistent outcomes**.
 - Canvas course content is fully covered (password-protected course-content exemption was removed from the final rule). Legacy documents still used in active courses are NOT exempt.
+- **Systemwide playbook:** the CSU ATI **Digital Content Remediation Prioritization Framework** (rev. 03/2025) is the CO's official guidance for exactly this program — our phases map onto its structure, and **CO ATI funds campus student-assistant hiring (FY24–25 IFT; round 2 tied to demonstrated progress)**. Full reading: `../research/csu-ati-remediation-framework-reading.md`; digest: background-research.md §2–§3, §12.
 
 ## Program model (from background research §3, §12)
 
@@ -25,13 +26,15 @@ Three-element structure validated at peer institutions:
 
 | Layer | Tool |
 |---|---|
-| Course scanning | UDOIT (+ TidyUP cleanup; Cidiscape or UDOIT Advantage for batch/institutional scans) |
+| Course scanning | UDOIT (+ TidyUP cleanup; Cidiscape or UDOIT Advantage for batch/institutional scans) — both CSU-negotiated |
 | Content census & inventory | CanvasBot v2 (custom — fills UDOIT's gaps: video sources, file inventory, quizzes) |
-| Document remediation | Adobe Acrobat Pro, Equidox, ABBYY FineReader (OCR); source-first where possible |
-| Video | Canvas Studio (platform of record) + outsourced professional captioning vendor |
+| Document remediation | Adobe Acrobat Pro, Equidox (**CSU systemwide pool: 72 concurrent seats ≈ 3/campus, expandable**), ABBYY FineReader (OCR); source-first where possible |
+| PDF QA gate | **PAC** (free PDF/UA checker — the framework's prescribed validation step) + Acrobat Full Check + human/NVDA pass |
+| Outsource/overflow lane | **Allyant (CommonLook)** — CSU Master Procurement Agreement for discounted remediation in progress; framework triggers: impractical complexity, at-capacity, staffing gaps |
+| Video | Canvas Studio (platform of record) + outsourced professional captioning vendor (framework names Verbit/Echo Labs; SFSU exiting Verbit) |
 | Alternate media exchange | AIMHub (CSU/CCC exchange — for accommodation-driven conversions) |
-| Tracking/reporting | Custom lifecycle queue + dashboard (engineering team); see Phase 5 |
-| AI | Triage and first-pass only; mandatory human review; no-training-on-our-data vendor clauses |
+| Tracking/reporting | Custom lifecycle queue + dashboard (engineering team); see Phase 5. Mirror the framework's KPI checklists for CO reporting |
+| AI | Triage and first-pass only; mandatory human review; no-training-on-our-data vendor clauses (CO framing: AI ≤80% of workload, final 20% human) |
 
 ## Phases
 
@@ -49,7 +52,7 @@ Three-element structure validated at peer institutions:
 - **Core team:** Amanda, Andrew, Daniel, Cristian (kick-off 2026). Daniel + Cristian lead technical documentation; Andrew owns doc reorganization & Box setup; Amanda owns scheduling.
 - **DPRC / Christina:** phased in as program matures; Daniel maintains communication on captioning/accommodations meanwhile.
 - **SFBRN:** program designed holistically for SFSU + SFBRN needs.
-- **External:** John Lynch, East Bay team (practice sharing); CCC Accessibility Center (training reuse); CO ATI (reporting line).
+- **External:** John Lynch, East Bay team (practice sharing); CCC Accessibility Center (training reuse); CO ATI (reporting line, **student-assistant funding, Remediation Hub access, Equidox seats, Allyant MPA** — confirm all with the SFSU ATI coordinator); **CSU STEM Accessibility WG** (Tier-C math escalation/coordination).
 
 ## Program-level success metrics
 

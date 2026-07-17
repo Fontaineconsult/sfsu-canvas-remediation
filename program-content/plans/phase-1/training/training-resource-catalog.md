@@ -30,6 +30,8 @@ Links:
 
 | Resource | What it covers | Format | Cost/Access |
 |---|---|---|---|
+| **CO ATI Acrobat student-training video series** ⭐ | Built for CSU student-assistant onboarding: Intro to PDF Accessibility (~15 min) · Accessibility Checker (~10) · Tagging Content Correctly (~20) · Remediating Scanned Documents (~15) · Final Review & PAC Testing (~10) | 5 videos, ~70 min total | **Free to CSU** — in the ATI Remediation Hub Canvas course; request team access via SFSU ATI coordinator |
+| **Cal Poly "MIDAS Document Remediation Resources"** | Canvas Commons template packaging startup/training materials for a student remediation team | Canvas course template | **Free** (Canvas Commons, CSU) |
 | **Adobe Acrobat accessibility tutorials** | "Prepare for accessibility" action, auto-tag, reading order, tags panel, tables, forms, OCR, checker, PDF/UA | Written tutorials + ~1hr course | **Free** guides (needs Acrobat Pro to practice) |
 | **Clemson PDF remediation guides** | Full workflow: OCR, auto-tag, reading order, tables, forms, untagged docs | Written step-by-step | **Free, open** |
 | **Section508 PDF training videos** | Testing + remediating PDFs, tagging, reading order | Video modules | **Free, open** |
@@ -84,6 +86,22 @@ Links:
 Links:
 - IAAP CPACC: https://www.accessibilityassociation.org/cpacc · WAS FAQ: https://www.accessibilityassociation.org/was-faq
 - (ADS — Accessible Document Specialist: see IAAP certifications directory)
+
+## (F) STEM / Math — specialist track (Tier C, not student-assistant onboarding)
+
+*From the Accessible Math guide (`../../../research/accessible-math-reading.md`, which also holds the full link list). Trains the senior student/specialist who works the math escalation lane per `../remediation-procedures/stem-math-escalation.md`. URLs carried over from the guide — not yet independently verified like §A–E.*
+
+| Resource | What it covers | Cost/Access |
+|---|---|---|
+| **The Accessibility Guy — Intro to Math Accessibility** (+ YouTube math playlists) | Orientation: why math needs real markup, format options | **Free** |
+| **DAISY — "Accessible Math Unlocks STEM" webinar + WordToEPUB guides** | MathML in EPUB/HTML; the WordToEPUB export lane | **Free** |
+| **U. Houston — Typing Math in MS Word** + Microsoft MathML/LaTeX support docs | Word Equation Editor mastery incl. LaTeX-style input — the core production skill | **Free** |
+| **Mathpix / MathType / EquatIO vendor guides** | Math-aware OCR + equation authoring — our candidate tool stack | Free docs (tools licensed) |
+| **LaTeX path:** learnlatex.org, Overleaf Learn, Lancaster accessibility checklist, AMS "Making Accessible Documents Using LaTeX", LaTeX tagging project | For the TEX-source lane and accessible-LaTeX output | **Free** |
+| **PDF Association — Accessible Math in PDF** (article + video) | What tagged PDF 2.0 math actually is; limits of reader support | **Free** |
+| **Science/diagram description:** DIAGRAM Center, NCAM/GBH science description, USC charts guide | Long descriptions for graphs, charts, scientific figures | **Free** |
+
+Links: see the resource catalog in `../../../research/accessible-math-reading.md` §7 (kept in one place to avoid drift).
 
 ---
 

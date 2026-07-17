@@ -16,9 +16,11 @@ Close the loop: stop inaccessible content at the source through faculty training
 ## Workstreams
 
 ### 6.1 Training program (assemble, don't author)
-- Reuse: CCC Accessibility Center micro-courses + WebAIM Document Training (access resolved in Phase 1), Cidi Labs UDOIT guides/video library, Clemson public guides.
-- Format model: UW-Whitewater's "Accessibility in Action" — short workshop series (Accessibility 101 / Slides & Video / Canvas Pages + UDOIT / Accessible Documents) + self-paced Canvas course + recordings on demand + 1:1 consults.
+- Reuse: CCC Accessibility Center micro-courses + WebAIM Document Training (access resolved in Phase 1), Cidi Labs UDOIT guides/video library, Clemson public guides, **CO ATI Remediation Hub materials**.
+- Format model: UW-Whitewater's "Accessibility in Action" — short workshop series (Accessibility 101 / Slides & Video / Canvas Pages + UDOIT / Accessible Documents) + self-paced Canvas course + recordings on demand + 1:1 consults. The CSU ATI framework adds: **Q&A sessions ≤45 min**, **accessibility office hours staffed by student assistants with on-call staff escalation**, and a single **services-hub webpage** (request forms + training sign-ups + FAQs in one place).
+- Faculty-facing self-service guide: adapt **CSUSM's checklist sequence** (TidyUp → course report → easiest fixes first → built-in checker → captions → monthly review), swapping Ally for UDOIT.
 - Canvas Studio upload workflow as a standing training module (Phase 3 policy).
+- STEM/data-science courses: point faculty at the **CSU STEM WG's Quarto/LaTeX accessible-workflow products** (HTML/DOCX outputs, no student-facing PDFs for math, accessible-IDE setup for R courses) — see background-research.md §13. Pair with the **born-accessible math authoring rules** (Accessible Math guide, `../research/accessible-math-reading.md`): equations via Word's native Equation Editor (LaTeX input supported), MathType, or EquatIO — **never screenshots of equations**; alt text/long descriptions on graphs; if a PDF must exist, only Word File→Save As→PDF with "Document structure tags for accessibility" preserves `Formula` tags.
 
 ### 6.2 Born-accessible authoring support
 - Accessible syllabus/course templates (DesignPLUS-style if available); default new-course shells that start accessible.
@@ -33,6 +35,11 @@ Close the loop: stop inaccessible content at the source through faculty training
 ### 6.4 Liaison network
 - MSU/UW pattern: named contact per college; department-level dashboard views (Phase 5) give liaisons their own data.
 - Grow from the faculty who engaged voluntarily in Phases 1–3 (CSUF's opt-in stream becomes the recruiting pool).
+- CSU ATI framework variants: **funded faculty fellowship** for digital accessibility, or expand existing equity/student-success champion roles; equip champions with prepared toolkits and have them present at senate/college/department meetings.
+
+### 6.5 Campaign & recognition machinery (lift from the framework appendices)
+The framework ships ready-to-adapt templates (Appendices A–F): presidential/provost commitment memo → provost service announcement → dean/chair amplification toolkits with meeting-agenda email templates → personalized faculty outreach with request-form links → completion email (what was fixed / how to import / how to maintain). Plus the recognition system worth copying outright: **"Accessible All-Stars"** — showcase page, digital badge, chair/dean notified, faculty explicitly encouraged to cite it in **RTP dossiers**. Cheap, meaningful, and turns compliance into credit.
+Also adopt its **responsibility-split example** as the published faculty bargain: faculty own alt text, headings, document language, pre-publish checks, and one training; the central team owns PDFs beyond that, all captioning, just-in-time guidance, and monitoring — with the framework's re-education loop ("expect a few rounds before habits form") for lapses.
 
 ## Deliverables
 

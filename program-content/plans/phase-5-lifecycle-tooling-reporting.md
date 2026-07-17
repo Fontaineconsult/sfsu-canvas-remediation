@@ -26,7 +26,7 @@ CanvasBot v2 (https://github.com/Fontaineconsult/canvas-bot-v2) as the inventory
 - **Audience-first design:** leadership view (trend lines, % coverage, deadline runway to April 2027), operations view (queue depth, throughput, SLA breaches), college/department view (Canvas sub-account level — Ally-shop pattern for dept reports).
 - Content: course scores + trends (UDOIT), document production (tracker), caption coverage (census), DPRC readiness (% P1 courses ready by term start), training completions.
 - Refresh weekly (MSU cadence). Role-gate department views.
-- Feeds ATI annual reporting and any CO ATI asks — one source of truth.
+- Feeds ATI annual reporting and any CO ATI asks — one source of truth. **Mirror the CSU ATI framework's per-section KPI checklists** (baseline data, request response rates, turnaround, courses/files remediated, student hours, training completions, cost avoidance) — that vocabulary is what the CO reads, and **round-2 student-assistant funding is allocated on demonstrated progress**, so the dashboard is also the funding case.
 
 ### 5.4 Integration map
 ```

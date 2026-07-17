@@ -18,17 +18,19 @@ No peer campus publishes a systematic enrollment-driven triage model — publish
 | Accommodation = top tier | UW captioning framework |
 | Severity SLAs within a course | MSU: Critical 2mo / Significant 4mo / Minor 6mo (tune windows to our throughput) |
 | Impact/usage ranking for the rest | Cal State LA: "prioritized based on impact and usage" |
+| Accommodation-triggered outreach machinery | **Cal State LA "AIM for Student Success"** (CSU ATI framework appendices): provost announcement → dean amplification → **personalized request-form links in notification waves** (~2-week cadence, two dean follow-ups) to faculty whose course has an accommodation request → course copied & remediated on consent → "Accessible All-Star" recognition (RTP-citable). **Still request-gated — the faculty form is the bottleneck our enrollment triage removes.** |
+| Official criteria menu for ranking | CSU ATI framework §1.5: enrollment, GE/core, **DFW/incomplete rates**, **gatekeeper courses**, accommodation history, **instructor readiness**, **cross-section/semester reuse**, issue complexity from scans |
 
 ## Proposed priority stack
 
 1. **P0 — Accommodation-triggered:** DPRC request in an active course. SLA-bound; reactive; should shrink over time as P1 coverage grows.
 2. **P1 — DPRC-enrollment proactive:** courses with registered DPRC students next term, ranked by (accommodation types × content risk score from Phase 2 scans/CanvasBot census). Target: remediated **before term start** (4-week standard).
-3. **P2 — Impact/usage:** high-enrollment, recurring, high-content-volume courses.
+3. **P2 — Impact/usage:** high-enrollment, recurring, high-content-volume courses. Refine with the framework's criteria: GE/core and **gatekeeper** courses, **high-DFW** courses, materials **reused across sections/terms**, and instructor willingness as a tiebreaker.
 4. **P3 — Request-driven:** faculty who ask (never below the line — goodwill matters).
 
 ## Data & privacy design (engineering + policy)
 
-- **Minimum viable data from DPRC:** course sections containing ≥1 registered student needing content accommodations, plus accommodation *category* (vision/hearing/print/etc. → drives what gets remediated first in the course). Not names; not diagnoses. Work with DPRC + registrar on FERPA-appropriate flow — aggregate course-level flags avoid most disclosure issues.
+- **Minimum viable data from DPRC:** course sections containing ≥1 registered student needing content accommodations, plus accommodation *category* (vision/hearing/print/etc. → drives what gets remediated first in the course). Not names; not diagnoses. Category also drives the **delivery format** for accommodation-driven output — e.g., a print/vision accommodation in a math-heavy course means **EPUB 3 + MathML or HTML** consumable by math-capable readers (Kurzweil 3000, Central Access Reader), not a tagged PDF; see the format hierarchy in `../research/accessible-math-reading.md`. Work with DPRC + registrar on FERPA-appropriate flow — aggregate course-level flags avoid most disclosure issues.
 - Term-by-term feed, delivered ≥6 weeks before term start to honor the 4-week remediation lead.
 - Content risk score per course: UDOIT score + CanvasBot census (document counts/types, video minutes uncaptioned, scan blind-spot content).
 - Output: ranked queue into the Phase 5 tracking system; capacity line drawn per term based on measured throughput.

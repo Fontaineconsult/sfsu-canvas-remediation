@@ -19,7 +19,7 @@ Rationale: machine captions alone are "rarely accurate enough" for compliance (U
 
 ## Policy direction (from kick-off, validated by research)
 
-- **Faculty upload video to Canvas Studio, full stop.** CSUN (YouTube/Panopto) and UW-Whitewater (Kaltura) made the same consolidation move with their platforms; training focuses on this workflow.
+- **Faculty upload video to Canvas Studio, full stop.** CSUN (YouTube/Panopto) and UW-Whitewater (Kaltura) made the same consolidation move with their platforms; training focuses on this workflow. The CSU ATI framework endorses the same consolidation: assess moving stray media (Zoom recordings, instructor YouTube, embedded Canvas media) onto the central platform, prefer vendor captioning via platform integration, and names **Verbit and Echo Labs** as the systemwide vendor lane (SFSU is exiting Verbit — pattern, not prescription).
 - External/YouTube-linked video: pipeline to detect links (CanvasBot detects video sources), then either (a) faculty re-uploads/replaces, or (b) capture-caption-reintegrate **pending the legal opinion** on scraping public content (open kick-off item — do not build ahead of counsel).
 
 ## Workflows
